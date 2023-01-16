@@ -53520,10 +53520,11 @@ aF(){var s,r=this
 A.m_().$1("message: "+B.FH.ei().h(0))
 s=$.cC()
 s.ghS(s).aA(new A.a1n(r),t.P)
-if(r.go){r.Go()
+r.bf()
+r.Go()
 r.mP()
 r.j3(0)
-r.fz(0)}r.bf()},
+r.fz(0)},
 Go(){var s=$.cC()
 s.ghS(s).aA(new A.a1h(this),t.P)},
 mP(){var s=0,r=A.a_(t.H),q=1,p,o=this,n,m,l
