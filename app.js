@@ -1,7 +1,13 @@
 function alertMessage(text) {
     alert(text)
 }
+function callAddBot() {
+    if (confirm("คุณยังไม่ได้เพิ่ม BOT เป็นเพื่อน จะเพิ่มเลยไหม ?")) {
+        window.location = "https://line.me/R/ti/p/@369ddbbh"
+    }
+}
 
 window.logger = (flutter_value) => {
-   console.log({ js_context: this, flutter_value });
+    console.log({ js_context: this, flutter_value });
 }
+
