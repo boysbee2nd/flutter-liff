@@ -35,12 +35,18 @@
 
   <script>
     // The value below is injected by flutter build, do not touch.
-    var serviceWorkerVersion = '2032103380';
+    var serviceWorkerVersion = '2625708966';
   </script>
   <!-- This script adds the flutter initialization JS code -->
   <script src="flutter.js" defer></script>
-  <script charset="utf-8" src="https://static.line-scdn.net/liff/edge/versions/2.20.3/sdk.js"></script>
   <script src="app.js" defer></script>
+  <script charset="utf-8" src="https://static.line-scdn.net/liff/edge/versions/2.20.3/sdk.js"></script>
+  <script src="https://unpkg.com/vconsole@latest/dist/vconsole.min.js"></script>
+  <script>
+    // VConsole will be exported to `window.VConsole` by default.
+    var vConsole = new window.VConsole();
+  </script>
+
   <!-- your other html flags -->
 </head>
 
