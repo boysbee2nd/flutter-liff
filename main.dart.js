@@ -63713,7 +63713,7 @@ s.f=J.hC(r)},
 $S:0}
 A.pJ.prototype={
 N(a){var s=null
-return A.a1J(A.adQ(B.Ml),A.aeT(A.bq(s,A.ae4(A.a([A.br("Fill information",s,s,s,s),A.ajp(A.br("Next",s,s,s,s),new A.a0p(),s)],t.F),B.dZ,B.e_),s,s,s,s,s,s)))}}
+return A.a1J(A.adQ(B.Ml),A.aeT(A.bq(s,A.ae4(A.a([A.br("Fill information with URL Strategy",s,s,s,s),A.ajp(A.br("Next",s,s,s,s),new A.a0p(),s)],t.F),B.dZ,B.e_),s,s,s,s,s,s)))}}
 A.a0p.prototype={
 $0(){A.ahR($.bA(),"/register/2",t.z)},
 $S:0}
